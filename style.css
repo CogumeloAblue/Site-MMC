@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1%;
+
+}
+
+article {
+    border-radius: 1%;
+    overflow: hidden;
+    margin-bottom: 1%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.articleoutside {
+    background-color: lightgray;
+}
+
+.articleinside {
+    background-color: white;
+}
+
+h2 {
+    color: #000000;
+}
+
+
+#MotherBoardTable,
+#RearportsTable,
+td,
+tr {
+    width: auto;
+}
+
+
+table {
+    background-color: lightgray;
+    border-radius: 1%;
+    margin-bottom: 1%;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    border:solid black;
+    border-radius: 1%;
+
+}
+
+
+img,
+video {
+    border-radius: 1%;
+    max-width: 100%;
+}
+
+#buttontoD,video{
+    width: 50%;
+    height: 50%;
+}
+
+#rufusD,#computersetup,#Motherboard{
+    width: 25%;
+    height: 25%;
+}
+#SENAIPaulínia, #Printer, #Scanner,#Speakers, #Joystick, #Keyboard{
+    width: 15%;
+    height: 15%;
+}
+
+#Microphones, #WebCam, #Mause{
+    width:10%;
+    height: 10%;
+}
+p{
+    font-size:large;
+}
+
+/* 07/12/2023 */
+
+
+.description,
+.productname {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 1%;
+}
+
+.carousel-control-next,
+.carousel-control-prev, li {
+    filter: invert(100%);
+}
